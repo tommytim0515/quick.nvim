@@ -9,13 +9,12 @@ Forked from : [albingroen/quick.nvim](https://github.com/albingroen/quick.nvim)
 - [Plenary](https://github.com/nvim-lua/plenary.nvim)
 - [Surround](https://github.com/blackCauldron7/surround.nvim)
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
-<!-- - [GitHub Theme](https://github.com/projekt0n/github-nvim-theme) -->
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [coc](https://github.com/neoclide/coc.nvim)
 - [nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring)
 - [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
 - [vim-commentary](https://github.com/tpope/vim-commentary/)
-
+<!-- - [GitHub Theme](https://github.com/projekt0n/github-nvim-theme) -->
 ## Prerequisites
 
 - [Neovim 0.5 or above](https://neovim.io)
