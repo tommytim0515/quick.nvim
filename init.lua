@@ -22,7 +22,16 @@ return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
   use {'neoclide/coc.nvim', branch = 'release'}
   -- use 'folke/tokyonight.nvim'
-  use 'github-theme'
+  use({
+    'projekt0n/github-nvim-theme',
+    config = function()
+      require('github-theme').setup({
+        theme_style = "dark",
+        function_style = "italic",
+        sidebars = {"qf", "vista_kind", "terminal", "packer"},
+      })
+    end
+  })
   use 'nvim-treesitter/nvim-treesitter' 
   use 'tpope/vim-commentary'
   use 'JoosepAlviste/nvim-ts-context-commentstring'
